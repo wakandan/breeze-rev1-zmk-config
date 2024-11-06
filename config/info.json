@@ -2,7 +2,7 @@
   "id": "afternoon_breeze",
   "name": "afternoon_breeze",
   "keyboard_name": "Breeze",
-  "url": "",
+  "url": "https://github.com/afternoonlabs/breeze-rev1-zmk-config",
   "maintainer": "afternoonlabs",
   "layouts": {
     "LAYOUT": {
