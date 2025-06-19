@@ -22,10 +22,10 @@
             //                                     |   NUMPAD   |     LALT    |    LCMD    |   SPACE    |  |   ENTER   |   FUNCTION  |  MACOS APP |  MACOS LANG |
 
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3            &kp N4     &kp N5         &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp MINUS         &kp MINUS          &kp BACKSPACE  &trans
-&kp TAB    &kp Q     &kp W   &kp E             &kp R      &kp T          &kp Y   &kp U      &kp I      &kp O    &kp P     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER      &trans
+&kp ESC    &kp N1    &kp N2  &kp N3            &kp N4     &kp N5         &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp MINUS         &kp MINUS  &kp BACKSPACE  &trans
+&kp TAB    &kp Q     &kp W   &kp E             &kp R      &kp T          &kp Y   &kp U      &kp I      &kp O    &kp P     &kp LEFT_BRACKET  &kp ENTER  &kp ENTER      &trans
 &kp LCTRL  &kp A     &kp S   &kp D             &kp F      &kp G          &kp H   &kp J      &kp K      &kp L    &kp SEMI  &kp APOS          &kp UP
-&kp LSHFT  &kp Z     &kp X   &kp C             &kp V      &kp B          &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT        &kp LEFT           &kp DOWN       &kp RIGHT
+&kp LSHFT  &kp Z     &kp X   &kp C             &kp V      &kp B          &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT        &kp LEFT   &kp DOWN       &kp RIGHT
 &mo 2      &kp LALT  &mo 1   &kp LEFT_COMMAND  &kp SPACE  &kp BACKSPACE  &mo 2   &kp ENTER
             >;
         };
@@ -39,11 +39,11 @@
             //                                     |            |             |            |            |  |           |             |            |             |
 
             bindings = <
-&bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans      &trans        &trans           &trans        &trans                &trans                 &trans          &trans            &trans             &trans       &trans         &trans
-&trans      &trans      &trans      &trans      &trans        &trans           &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &trans             &trans       &trans         &trans
-&trans      &trans      &trans      &trans      &trans        &trans           &kp PLUS      &kp EQUAL             &kp UNDERSCORE         &kp MINUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP
-&trans      &trans      &trans      &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans        &kp C_MUTE            &kp C_VOL_DN           &kp C_VOL_UP    &trans            &trans             &kp HOME     &kp PAGE_DOWN  &kp END
-&trans      &trans      &trans      &trans      &trans        &trans           &trans        &trans
+&trans  &trans  &trans  &trans      &trans        &trans           &trans        &trans                &trans                 &trans          &trans            &trans             &trans       &trans         &trans
+&trans  &kp N6  &kp N7  &kp N8      &kp N9        &kp N0           &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &trans             &trans       &trans         &trans
+&trans  &kp N1  &kp N2  &kp N3      &kp N4        &kp N5           &kp PLUS      &kp EQUAL             &kp UNDERSCORE         &kp MINUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP
+&trans  &trans  &trans  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans        &kp HOME              &kp END                &kp C_VOL_UP    &trans            &trans             &kp HOME     &kp PAGE_DOWN  &kp END
+&trans  &trans  &trans  &trans      &trans        &trans           &trans        &trans
             >;
         };
 
