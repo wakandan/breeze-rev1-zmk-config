@@ -28,6 +28,7 @@
 &kp LSHFT  &kp Z     &kp X   &kp C             &kp V      &kp B          &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT     &kp LEFT    &kp DOWN       &kp RIGHT
 &mo 2      &kp LALT  &mo 1   &kp LEFT_COMMAND  &kp SPACE  &kp BACKSPACE  &mo 1   &kp ENTER
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         symbols {
