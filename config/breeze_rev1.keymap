@@ -22,12 +22,13 @@
             //                                     |   NUMPAD   |     LALT    |    LCMD    |   SPACE    |  |   ENTER   |   FUNCTION  |  MACOS APP |  MACOS LANG |
 
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3            &kp N4     &kp N5         &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE  &kp K_MUTE  &kp BACKSPACE  &trans
-&kp TAB    &kp Q     &kp W   &kp E             &kp R      &kp T          &kp Y   &kp U      &kp I      &kp O    &kp P     &kp BACKSPACE  &kp ENTER   &kp ENTER      &trans
-&kp LCTRL  &kp A     &kp S   &kp D             &lt 3 F    &kp G          &kp H   &kp J      &kp K      &kp L    &kp SEMI  &kp APOS       &kp UP
-&kp LSHFT  &kp Z     &kp X   &kp C             &kp V      &kp B          &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT     &kp LEFT    &kp DOWN       &kp RIGHT
-&mo 2      &kp LALT  &mo 1   &kp LEFT_COMMAND  &kp SPACE  &kp BACKSPACE  &mo 1   &kp ENTER
+&kp ESC    &kp N1    &kp N2  &kp N3            &kp N4     &kp N5  &kp N6  &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE  &kp K_MUTE  &kp BACKSPACE  &trans
+&kp TAB    &kp Q     &kp W   &kp E             &kp R      &kp T   &kp Y   &kp U      &kp I      &kp O    &kp P     &kp BACKSPACE  &kp ENTER   &kp ENTER      &trans
+&kp LCTRL  &kp A     &kp S   &kp D             &lt 3 F    &kp G   &kp H   &kp J      &kp K      &kp L    &kp SEMI  &kp APOS       &kp UP
+&kp LSHFT  &kp Z     &kp X   &kp C             &kp V      &kp B   &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT     &kp LEFT    &kp DOWN       &kp RIGHT
+&mo 2      &kp LALT  &mo 1   &kp LEFT_COMMAND  &kp SPACE  &mo 1   &mo 1   &kp ENTER
             >;
+
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -43,7 +44,7 @@
 &kp GRAVE          &trans       &trans                &trans                    &trans                     &trans                 &trans        &trans                &trans                 &trans          &trans            &trans             &trans       &trans         &trans
 &kp LG(TILDE)      &kp N6       &kp N7                &kp LC(LEFT)              &kp LC(RIGHT_ARROW)        &kp N0                 &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LA(BACKSPACE)  &trans       &trans         &trans
 &kp C_VOLUME_UP    &kp LG(TAB)  &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LG(LS(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &kp PLUS      &kp EQUAL             &kp UNDERSCORE         &kp MINUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP
-&kp C_VOLUME_DOWN  &kp K_MUTE   &trans                &kp HOME                  &kp END                    &kp C_VOLUME_UP        &kp TILDE     &kp PIPE              &kp BACKSLASH          &kp C_VOL_UP    &trans            &trans             &kp HOME     &kp PAGE_DOWN  &kp END
+&kp C_VOLUME_DOWN  &kp K_MUTE   &trans                &kp HOME                  &kp END                    &kp C_VOLUME_UP        &kp TILDE     &kp PIPE              &kp BACKSLASH          &trans          &trans            &kp LC(C)          &kp HOME     &kp PAGE_DOWN  &kp END
 &trans             &trans       &trans                &trans                    &kp ENTER                  &kp LA(BACKSPACE)      &trans        &trans
             >;
         };
